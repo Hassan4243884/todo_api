@@ -49,19 +49,22 @@ Ensure you have the following installed:
 
 ## Running the Application Locally
 
-1. Start the development server:
+0. Make sure to edit django settings for email configurations
+   
+
+2. Start the development server:
 
    ```bash
    python manage.py runserver
    ```
 
-2. Start Celery worker:
+3. Start Celery worker:
 
    ```bash
    celery -A todo_list worker --loglevel=info
    ```
 
-3. Start Celery Beat for scheduled tasks:
+4. Start Celery Beat for scheduled tasks:
    ```bash
    celery -A todo_list beat --loglevel=info
    ```
