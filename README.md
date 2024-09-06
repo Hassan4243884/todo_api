@@ -49,7 +49,7 @@ Ensure you have the following installed:
 
 ## Running the Application Locally
 
-0. Make sure to edit django settings for email configurations
+###Make sure to edit django settings for email configurations
    
 
 2. Start the development server:
